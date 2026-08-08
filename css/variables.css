@@ -1,0 +1,42 @@
+/* ================================================
+   PharmaCare – Liquid Glass UI Theme Tokens
+   ============================================== */
+:root {
+  /* Liquid Color Palette */
+  --primary:        #2563eb;
+  --primary-lt:     #38bdf8;
+  --primary-grd:    linear-gradient(135deg, #0284c7 0%, #2563eb 50%, #4f46e5 100%);
+  --liquid-glow:    linear-gradient(135deg, #38bdf8 0%, #818cf8 100%);
+  --accent:         #f43f5e;
+  --accent-grd:     linear-gradient(135deg, #f43f5e 0%, #e11d48 100%);
+  --success:        #10b981;
+  --success-grd:    linear-gradient(135deg, #34d399 0%, #059669 100%);
+  
+  /* Glass Surface Tokens - Light Mode */
+  --bg:             #f0f7ff;
+  --bg-gradient:    radial-gradient(at 0% 0%, #e0f2fe 0%, #f0f7ff 50%, #e0e7ff 100%);
+  --surface:        rgba(255, 255, 255, 0.65);
+  --surface-solid:  #ffffff;
+  --glass-border:   rgba(255, 255, 255, 0.7);
+  --glass-shadow:   0 8px 32px 0 rgba(31, 38, 135, 0.12), inset 0 1px 0 0 rgba(255, 255, 255, 0.7);
+  --glass-blur:     blur(20px) saturate(180%);
+  
+  /* Text & Border */
+  --text:           #0f172a;
+  --text-muted:     #475569;
+  --border:         rgba(203, 213, 225, 0.6);
+  
+  /* Shadows & Radius */
+  --shadow-sm:      0 4px 12px rgba(0, 0, 0, 0.04);
+  --shadow-md:      0 10px 30px rgba(37, 99, 235, 0.12);
+  --shadow-lg:      0 20px 50px rgba(15, 23, 42, 0.18);
+  --radius-sm:      10px;
+  --radius:         16px;
+  --radius-lg:      26px;
+  --radius-pill:    99px;
+  --transition:     all 0.35s cubic-bezier(0.4, 0, 0.2, 1);
+  /* Font Families: Serif & Sans-Serif */
+  --font-sans:      'Inter', system-ui, -apple-system, sans-serif;
+  --font-serif:     'Playfair Display', Georgia, 'Times New Roman', serif;
+  --font:           var(--font-sans);
+}
